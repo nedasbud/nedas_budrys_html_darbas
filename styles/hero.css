@@ -24,13 +24,14 @@
 
 .heroTextMiniTitle {
   position: absolute;
-  width: 169px;
+  /* teko pridet 2px plocio nes persilauzia tekstas :/ (arba srifta -1) */
+  width: 171px;
   height: 19px;
   top: 18px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
