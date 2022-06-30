@@ -1,0 +1,46 @@
+.press {
+  position: absolute;
+  width: 1280px;
+  height: 49px;
+  left: 80px;
+  top: 1429px;
+}
+
+.press1 {
+  position: absolute;
+  width: 216.12px;
+  height: 40.7px;
+  top: 5.6px;
+  background-image: url(../assets/companies/1.svg);
+}
+.press2 {
+  position: absolute;
+  width: 154.08px;
+  height: 46.46px;
+  left: 322.67px;
+  top: 2.54px;
+  background-image: url(../assets/companies/2.svg);
+}
+.press3 {
+  position: absolute;
+  width: 132.72px;
+  height: 46.21px;
+  left: 583.3px;
+  background-image: url(../assets/companies/3.svg);
+}
+.press4 {
+  position: absolute;
+  width: 194.76px;
+  height: 40.7px;
+  left: 822.57px;
+  top: 5.6px;
+  background-image: url(../assets/companies/4.svg);
+}
+.press5 {
+  position: absolute;
+  width: 156.12px;
+  height: 40.7px;
+  left: 1123.88px;
+  top: 5.6px;
+  background-image: url(../assets/companies/5.svg);
+}
