@@ -15,10 +15,11 @@
   }
 
   /* ========= HEADER ========= */
+
   .header .container {
     width: 364px;
     height: 36px;
-    margin-bottom: 42px;
+    margin-bottom: 74px;
   }
 
   .headerNav {
@@ -34,14 +35,17 @@
     margin-top: 32px;
   }
   /* ========= HERO ============ */
-  .hero .container {
-    margin-top: 42px;
+  .hero {
+    /* margin-top: 42px; */
     width: 482.62px;
     height: 448px;
     margin-bottom: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  }
+  .hero .container {
+    /* margin-top: 42px; */
+    width: 482.62px;
+    height: 448px;
   }
 
   .heroImage {
@@ -57,6 +61,7 @@
   }
 
   .heroTextMiniTitle {
+    margin-top: 42px;
     height: 19px;
   }
 
@@ -79,6 +84,7 @@
     height: 326px;
     margin-left: 0;
     background-image: linear-gradient(to right, #d67084, orange);
+    margin-bottom: 64px;
   }
   .upsellText {
     margin-left: 32px;
@@ -95,10 +101,39 @@
     height: 60px;
   }
 
-  .press {
+  /* Press ========================== */
+
+  .press .container {
+    margin-top: 0;
     width: 364px;
     height: 117px;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .press1 {
+    left: 0;
+    width: 138px;
+  }
+  .press2 {
+    width: 180px;
+    left: 210px;
+  }
+  .press3 {
+    left: 0;
+    bottom: 0;
+    width: 180px;
+  }
+  .press4 {
+    display: none;
+  }
+  .press5 {
+    width: 180px;
+    left: 210px;
+    top: 75px;
+  }
+
+  /* ============ SHOWCASE */
 
   .showcase {
     width: 1280px;
