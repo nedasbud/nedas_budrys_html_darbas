@@ -11,7 +11,7 @@
   position: absolute;
   width: 500px;
   height: 519px;
-  margin-left: 47.875rem;
+  left: 47.875rem;
   background-image: url(../assets/graphic.svg);
   background-size: cover;
 }
@@ -72,8 +72,6 @@
 .heroCtaButtonText {
   width: 76px;
   height: 30px;
-  left: calc(50% - 76px / 2);
-  top: calc(50% - 30px / 2 - 0.5px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
