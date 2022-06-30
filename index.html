@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atsiskaitymas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/common.css" />
-    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
   </head>
   <body>
     <div class="pageContent">
@@ -24,7 +31,20 @@
       </header>
 
       <section class="hero">
-        <img src="graphic.png" alt="NFT alien" />
+        <div class="heroImageContent">
+          <div class="heroImage"></div>
+        </div>
+        <div class="heroText">
+          <p class="heroTextMiniTitle">Launching soon</p>
+          <p class="heroTextTitle">An NFT like no other</p>
+          <p class="heroTextMain">
+            Don't miss out on the release of our new NFT. Sign up below to
+            receive updates when we go live.
+          </p>
+          <button class="heroCtaButton">
+            <span class="heroCtaButtonText">Sign up</span>
+          </button>
+        </div>
       </section>
     </div>
   </body>
