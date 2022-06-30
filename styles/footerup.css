@@ -5,7 +5,7 @@
 }
 
 .footerUpsellLine {
-  width: 1280px;
+  width: 100%;
   height: 2px;
   top: 0px;
   background-color: #eeeeee;
@@ -16,7 +16,6 @@
   width: 651px;
   height: 310px;
   top: 122px;
-  /* 2398 */
 }
 
 .footerUpsellTextMiniTitle {

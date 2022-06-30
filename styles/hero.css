@@ -1,5 +1,5 @@
 .hero {
-  width: 1120px;
+  width: 87.5%;
   height: 519px;
   margin-top: 11.375rem;
   position: relative;
@@ -17,7 +17,7 @@
 }
 
 .heroText {
-  width: 620px;
+  width: 55.357%;
   height: 483px;
 }
 
