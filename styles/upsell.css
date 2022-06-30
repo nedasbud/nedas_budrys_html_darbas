@@ -1,22 +1,19 @@
 .upsell {
-  position: absolute;
   width: 1280px;
   height: 320px;
-  left: 80px;
-  top: 989px;
   background-image: url(../assets/background.svg);
+  position: relative;
 }
 
 .upsellText {
   position: absolute;
   width: 620px;
   height: 102px;
-  left: 64px;
+  margin-left: 64px;
   top: 154px;
 }
 
 .upsellTextTitle {
-  position: absolute;
   width: 620px;
   height: 48px;
   font-family: "Inter";
@@ -27,13 +24,12 @@
   display: flex;
   align-items: flex-end;
   color: #111111;
+  margin-bottom: 24px;
 }
 
 .upsellTextSubtitle {
-  position: absolute;
   width: 537px;
   height: 30px;
-  top: 72px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

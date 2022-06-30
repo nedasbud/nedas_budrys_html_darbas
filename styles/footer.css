@@ -1,17 +1,14 @@
 .footer {
-  position: absolute;
   width: 1280px;
   height: 401px;
-  left: 80px;
-  top: 2828px;
+  position: relative;
 }
 
 .footerLine {
-  position: absolute;
   width: 1280px;
   height: 2px;
-  top: 0px;
   background-color: #eeeeee;
+  margin-bottom: 120px;
 }
 
 .footerLeft {
@@ -19,7 +16,6 @@
   width: 233px;
   height: 136px;
   top: 122px;
-  /* 2950 */
 }
 
 .footerLeftLogo {
