@@ -11,13 +11,13 @@
   .container {
     width: 364px;
     height: 3300px;
-    margin: 0 auto;
+    margin: 0 32px;
   }
 
   /* ========= HEADER ========= */
-  .header {
-    width: 100%;
-    /* height: 36px; */
+  .header .container {
+    width: 364px;
+    height: 36px;
     margin-bottom: 42px;
   }
 
@@ -34,7 +34,7 @@
     margin-top: 32px;
   }
   /* ========= HERO ============ */
-  .hero {
+  .hero .container {
     margin-top: 42px;
     width: 482.62px;
     height: 448px;
@@ -48,11 +48,10 @@
     width: 189.62px;
     height: 278px;
     left: 253px;
-    top: -65px;
+    top: -45px;
   }
 
   .heroText {
-    /* margin-top: 80px; */
     width: 274px;
     height: 410px;
   }
@@ -74,10 +73,26 @@
     height: 120px;
     margin-bottom: 2rem;
   }
-
-  .upsell {
-    width: 428px;
+  /* ================= UPSELL */
+  .upsell .container {
+    width: 100%;
     height: 326px;
+    margin-left: 0;
+    background-image: linear-gradient(to right, #d67084, orange);
+  }
+  .upsellText {
+    margin-left: 32px;
+    width: 364px;
+    height: 172px;
+    top: 122px;
+  }
+  .upsellTextTitle {
+    width: 364px;
+    height: 96px;
+  }
+  .upsellTextSubtitle {
+    width: 364px;
+    height: 60px;
   }
 
   .press {
