@@ -6,6 +6,14 @@
   top: 2276px;
 }
 
+.footerUpsellLine {
+  position: absolute;
+  width: 1280px;
+  height: 2px;
+  top: 0px;
+  background-color: #eeeeee;
+}
+
 .footerUpsellText {
   position: absolute;
   width: 651px;
