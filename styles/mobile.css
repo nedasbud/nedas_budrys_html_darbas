@@ -165,16 +165,6 @@
     top: 242px;
   }
 
-  .showcaseCard2 {
-    left: 362px;
-  }
-  .showcaseCard3 {
-    left: 692px;
-  }
-  .showcaseCard4 {
-    left: 1022px;
-  }
-
   /* =================================== */
 
   .footerUpsell {
@@ -226,7 +216,7 @@
 
   .footerUpsellImage {
     left: 253.52px;
-    top: 162px;
+    top: 164px;
   }
 
   /* Footer =============================== */
@@ -234,5 +224,66 @@
   .footer {
     width: 428px;
     height: 632px;
+  }
+
+  .footer .container {
+    margin-left: 0;
+    width: 428px;
+  }
+
+  .footerLine {
+    margin-bottom: 64px;
+  }
+
+  .footerLeft {
+    top: 64px;
+    margin-left: 2rem;
+  }
+
+  .footerRight {
+    width: 260px;
+    height: 282px;
+    top: 264px;
+    left: 32px;
+  }
+
+  .footerRightSocial {
+    top: 179px;
+    left: 165px;
+  }
+
+  .footerRightSocialText {
+    top: 216px;
+    left: 165px;
+  }
+
+  .footerRightContact {
+    top: 179px;
+    left: 0;
+  }
+
+  .footerRightContactText {
+    top: 216px;
+    left: 0;
+  }
+
+  .footerRightNFT {
+    left: 165px;
+  }
+  .footerRightNFTText {
+    top: 37px;
+  }
+  .footerRightAboutText {
+    top: 37px;
+  }
+
+  .footerBottom {
+    width: 286px;
+    height: 20px;
+    top: 610px;
+    left: 32px;
+  }
+  .footerBottomRight {
+    display: none;
   }
 }

@@ -1,4 +1,4 @@
-.showcase {
+.showcase .container {
   width: 1280px;
   height: 558px;
   position: relative;
@@ -57,13 +57,13 @@
 }
 
 .showcaseCard2 {
-  left: 410px;
+  left: 330px;
 }
 .showcaseCard3 {
-  left: 740px;
+  left: 660px;
 }
 .showcaseCard4 {
-  left: 1070px;
+  left: 990px;
 }
 
 .showcaseCard1Image,
