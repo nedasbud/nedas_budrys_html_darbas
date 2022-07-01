@@ -1,8 +1,14 @@
+html {
+  background-color: azure;
+}
+
 body {
   width: 1440px;
   height: 3300px;
   background-color: #ffffff;
   margin: 0 auto;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
 }
 
 .container {
