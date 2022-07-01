@@ -109,6 +109,7 @@
     height: 117px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 56px;
   }
 
   .press1 {
@@ -139,6 +140,41 @@
     width: 1280px;
     height: 642px;
   }
+
+  .showcaseText {
+    width: 364px;
+    height: 202px;
+  }
+
+  .showcaseTextTitle {
+    width: 100%;
+    height: 96px;
+  }
+
+  .showcaseTextSubtitle {
+    width: 100%;
+    height: 90px;
+    top: 112px;
+  }
+
+  .showcaseCard1,
+  .showcaseCard2,
+  .showcaseCard3,
+  .showcaseCard4 {
+    top: 242px;
+  }
+
+  .showcaseCard2 {
+    left: 362px;
+  }
+  .showcaseCard3 {
+    left: 692px;
+  }
+  .showcaseCard4 {
+    left: 1022px;
+  }
+
+  /* =================================== */
 
   .footerUpsell {
     width: 683px;
