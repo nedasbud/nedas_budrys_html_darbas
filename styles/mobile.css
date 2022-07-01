@@ -43,9 +43,8 @@
   }
 
   .heroImage {
-    width: 189.62px;
-    height: 278px;
-    left: 253px;
+    top: -40px;
+    left: 193px;
   }
 
   .heroText {
@@ -149,14 +148,10 @@
   .showcaseTextSubtitle {
     width: 100%;
     height: 90px;
-    top: 112px;
   }
 
-  .showcaseCard1,
-  .showcaseCard2,
-  .showcaseCard3,
-  .showcaseCard4 {
-    top: 242px;
+  .showcaseCards {
+    margin-top: 40px;
   }
 
   /* =================================== */

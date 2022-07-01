@@ -6,19 +6,16 @@
   margin-bottom: 182px;
 }
 
-.heroImage {
-  /* didesni ploti pasidariau kolkas kad graziau matytusi :) */
-  position: absolute;
-  width: 500px;
-  height: 519px;
-  left: 47.875rem;
-  background-image: url(../assets/graphic.svg);
-  background-size: cover;
-}
-
 .heroText {
   width: 55.357%;
   height: 483px;
+}
+
+.heroImage {
+  /* didesni ploti pasidariau kolkas kad graziau matytusi :) */
+  position: absolute;
+  left: 580px;
+  top: -100px;
 }
 
 .heroTextMiniTitle {

@@ -1,18 +1,18 @@
-.showcase .container {
-  width: 1280px;
-  height: 558px;
-  position: relative;
+.showcase {
   margin-bottom: 120px;
 }
 
+.showcase .container {
+  width: 1280px;
+  height: 558px;
+}
+
 .showcaseText {
-  position: absolute;
   width: 782px;
   height: 102px;
 }
 
 .showcaseTextTitle {
-  position: absolute;
   width: 620px;
   height: 48px;
   font-family: "Inter";
@@ -23,10 +23,10 @@
   display: flex;
   align-items: flex-end;
   color: #111111;
+  margin-bottom: 24px;
 }
 
 .showcaseTextSubtitle {
-  position: absolute;
   width: 782px;
   height: 30px;
   top: 72px;
@@ -44,52 +44,28 @@
 
 /* ================================================ */
 
+.showcaseCards {
+  margin-top: 56px;
+  display: flex;
+  gap: 40px;
+}
+
 .showcaseCard1,
 .showcaseCard2,
 .showcaseCard3,
 .showcaseCard4 {
-  position: absolute;
   width: 290px;
   height: 400px;
-  top: 158px;
   border-radius: 16px;
   background: #eeeeee;
 }
 
-.showcaseCard2 {
-  left: 330px;
+.showcaseCard1TextBlock,
+.showcaseCard2TextBlock,
+.showcaseCard3TextBlock,
+.showcaseCard4TextBlock {
+  position: relative;
 }
-.showcaseCard3 {
-  left: 660px;
-}
-.showcaseCard4 {
-  left: 990px;
-}
-
-.showcaseCard1Image,
-.showcaseCard2Image,
-.showcaseCard3Image,
-.showcaseCard4Image {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 30.5%;
-}
-
-.showcaseCard1Image {
-  background-image: url(../assets/nfts/ntf-1.svg);
-}
-.showcaseCard2Image {
-  background-image: url(../assets/nfts/nft-2.svg);
-}
-.showcaseCard3Image {
-  background-image: url(../assets/nfts/ntf-3.svg);
-}
-.showcaseCard4Image {
-  background-image: url(../assets/nfts/ntf-4.svg);
-}
-
 .showcaseCard1Left,
 .showcaseCard2Left,
 .showcaseCard3Left,
@@ -98,7 +74,7 @@
   width: 109px;
   height: 74px;
   left: 24px;
-  top: 302px;
+  top: 24px;
 }
 
 .showcaseCard1LeftMiniTitle,
@@ -156,8 +132,8 @@
   position: absolute;
   width: 110px;
   height: 74px;
-  left: 157px;
-  top: 302px;
+  top: 24px;
+  right: 23px;
 }
 
 .showcaseCard1RigthMiniTitle,
