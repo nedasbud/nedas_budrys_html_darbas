@@ -36,14 +36,12 @@
   }
   /* ========= HERO ============ */
   .hero {
-    /* margin-top: 42px; */
     width: 482.62px;
     height: 448px;
     margin-bottom: 80px;
     display: flex;
   }
   .hero .container {
-    /* margin-top: 42px; */
     width: 482.62px;
     height: 448px;
   }
