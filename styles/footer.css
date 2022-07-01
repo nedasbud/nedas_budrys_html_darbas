@@ -46,11 +46,11 @@
   color: #555555;
 }
 
-.footerLeftSocial .fa {
-  margin-right: 16px;
+.footerLeftSocial .fa-brands {
+  margin-right: 15px;
 }
 
-.footerLeftSocial .fa-music {
+.footerLeftSocial .fa-tiktok {
   margin-right: 0;
 }
 
