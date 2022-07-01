@@ -1,21 +1,18 @@
 @media screen and (max-width: 428px) {
-  .pageContent {
+  body {
     width: 428px;
-    height: 3300px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 16px;
-    margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .container {
     width: 364px;
-    height: 3300px;
     margin: 0 32px;
   }
 
   /* ========= HEADER ========= */
 
+  .header {
+    margin-top: 32px;
+  }
   .header .container {
     width: 364px;
     height: 36px;
@@ -26,20 +23,19 @@
     display: none;
   }
   .headerNavBurger {
-    margin-top: 41px;
+    margin-top: 9px;
     font-size: 22px;
     display: block;
   }
 
-  .headerLogo {
-    margin-top: 32px;
-  }
   /* ========= HERO ============ */
   .hero {
     width: 482.62px;
+    width: 100%;
     height: 448px;
     margin-bottom: 80px;
     display: flex;
+    overflow: hidden;
   }
   .hero .container {
     width: 482.62px;
@@ -50,7 +46,6 @@
     width: 189.62px;
     height: 278px;
     left: 253px;
-    top: -45px;
   }
 
   .heroText {
@@ -135,9 +130,10 @@
   /* ============ SHOWCASE */
 
   .showcase {
-    width: 1280px;
+    width: 100%;
     height: 642px;
     margin-bottom: 92px;
+    overflow: hidden;
   }
 
   .showcaseText {
@@ -166,8 +162,9 @@
   /* =================================== */
 
   .footerUpsell {
-    width: 683px;
+    width: 100%;
     height: 630px;
+    overflow: hidden;
   }
 
   .footerUpsell .container {
@@ -180,9 +177,12 @@
   }
 
   .footerUpsellText {
+    width: 100%;
     margin-left: 32px;
   }
-
+  .footerUpsellTextMiniTitle {
+    width: 100%;
+  }
   .footerUpsellTextTitle {
     width: 274px;
     height: 204px;
@@ -213,6 +213,7 @@
   }
 
   .footerUpsellImage {
+    overflow-x: hidden;
     left: 253.52px;
     top: 164px;
   }
@@ -230,6 +231,7 @@
   }
 
   .footerLine {
+    width: 100%;
     margin-bottom: 64px;
   }
 
