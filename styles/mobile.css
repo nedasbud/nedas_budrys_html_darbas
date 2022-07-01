@@ -139,6 +139,7 @@
   .showcase {
     width: 1280px;
     height: 642px;
+    margin-bottom: 92px;
   }
 
   .showcaseText {
@@ -180,6 +181,55 @@
     width: 683px;
     height: 630px;
   }
+
+  .footerUpsell .container {
+    margin-left: 0;
+    width: 428px;
+  }
+
+  .footerUpsellLine {
+    margin-bottom: 64px;
+  }
+
+  .footerUpsellText {
+    margin-left: 32px;
+  }
+
+  .footerUpsellTextTitle {
+    width: 274px;
+    height: 204px;
+    margin-bottom: 22px;
+  }
+
+  .footerUpsellLineMobileOnly {
+    display: block;
+    position: absolute;
+    top: 328px;
+  }
+
+  .footerUpsellTextSubtitle {
+    display: none;
+  }
+
+  .footerUpsellTextSubtitleMobile {
+    display: block;
+    width: 207px;
+    height: 120px;
+    margin-bottom: 32px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+  }
+
+  .footerUpsellImage {
+    left: 253.52px;
+    top: 162px;
+  }
+
+  /* Footer =============================== */
 
   .footer {
     width: 428px;
