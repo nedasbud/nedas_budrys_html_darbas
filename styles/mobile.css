@@ -1,6 +1,10 @@
 /* OPTIONAL QUERRIES KAD GRAZIAU SUSIDELIOTU MAZINANT :) */
 
 @media screen and (max-width: 1439px) {
+  .showcaseCards {
+    justify-content: center;
+  }
+
   .footer {
     padding-bottom: 71px;
   }
@@ -41,6 +45,14 @@
   }
 }
 @media screen and (max-width: 834px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
   .headerNav {
     display: none;
   }
@@ -189,6 +201,7 @@
     margin-left: 0;
     background-image: linear-gradient(to right, #d67084, orange);
     margin-bottom: 64px;
+    border-radius: 0;
   }
   .upsellText {
     margin-top: 122px;
@@ -244,6 +257,7 @@
     width: 100%;
     height: 642px;
     margin-bottom: 92px;
+    /* kad butu scrollable nft gallery */
     overflow: scroll;
   }
 
