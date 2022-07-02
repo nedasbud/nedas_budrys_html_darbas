@@ -1,0 +1,192 @@
+.showcase {
+  margin-bottom: 120px;
+}
+
+.showcase .container {
+  min-height: 558px;
+}
+
+.showcaseTextTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+  color: #111111;
+  margin-bottom: 24px;
+}
+
+.showcaseTextSubtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.showcaseTextLink {
+  text-decoration: underline;
+}
+
+/* ================================================ */
+
+.showcaseCards {
+  margin-top: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.showcaseCard1,
+.showcaseCard2,
+.showcaseCard3,
+.showcaseCard4 {
+  width: 290px;
+  height: 400px;
+  border-radius: 16px;
+  background: #eeeeee;
+}
+
+.showcaseCard1TextBlock,
+.showcaseCard2TextBlock,
+.showcaseCard3TextBlock,
+.showcaseCard4TextBlock {
+  position: relative;
+}
+.showcaseCard1Left,
+.showcaseCard2Left,
+.showcaseCard3Left,
+.showcaseCard4Left {
+  position: absolute;
+  width: 109px;
+  height: 74px;
+  left: 24px;
+  top: 24px;
+}
+
+.showcaseCard1LeftMiniTitle,
+.showcaseCard2LeftMiniTitle,
+.showcaseCard3LeftMiniTitle,
+.showcaseCard4LeftMiniTitle {
+  position: absolute;
+  width: 86px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ff8139;
+  margin-bottom: 0;
+}
+
+.showcaseCard1LeftTitle,
+.showcaseCard2LeftTitle,
+.showcaseCard3LeftTitle,
+.showcaseCard4LeftTitle {
+  position: absolute;
+  width: 109px;
+  top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #111111;
+  margin-bottom: 0;
+}
+
+.showcaseCard1LeftNumber,
+.showcaseCard2LeftNumber,
+.showcaseCard3LeftNumber,
+.showcaseCard4LeftNumber {
+  position: absolute;
+  width: 65px;
+  bottom: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777777;
+  margin-bottom: 0;
+}
+
+.showcaseCard1Rigth,
+.showcaseCard2Rigth,
+.showcaseCard3Rigth,
+.showcaseCard4Rigth {
+  position: absolute;
+  width: 110px;
+  height: 74px;
+  top: 24px;
+  right: 23px;
+}
+
+.showcaseCard1RigthMiniTitle,
+.showcaseCard2RigthMiniTitle,
+.showcaseCard3RigthMiniTitle,
+.showcaseCard4RigthMiniTitle {
+  position: absolute;
+  width: 48px;
+  right: 24px;
+  top: 0;
+  right: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.showcaseCard1RigthTitle,
+.showcaseCard2RigthTitle,
+.showcaseCard3RigthTitle,
+.showcaseCard4RigthTitle {
+  position: absolute;
+  width: 89px;
+  right: 0;
+  top: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: right;
+  color: #111111;
+}
+
+.showcaseCard1RigthETH,
+.showcaseCard2RigthETH,
+.showcaseCard3RigthETH,
+.showcaseCard4RigthETH {
+  position: absolute;
+  width: 13px;
+  height: 22px;
+  right: 97px;
+  top: 24px;
+  background-image: url(../assets/eth.svg);
+}
+.showcaseCard1RigthTimeleft,
+.showcaseCard2RigthTimeleft,
+.showcaseCard3RigthTimeleft,
+.showcaseCard4RigthTimeleft {
+  position: absolute;
+  width: 78px;
+  right: 0px;
+  bottom: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: right;
+  color: #777777;
+  margin-bottom: 0;
+}

@@ -1,0 +1,207 @@
+.footer .container {
+  min-height: 401px;
+  position: relative;
+}
+
+.footerLine {
+  width: 100%;
+  height: 2px;
+  background-color: #eeeeee;
+  margin-bottom: 120px;
+}
+
+.footerLeft {
+  position: absolute;
+  top: 122px;
+}
+
+.footerLeftLogo {
+  position: absolute;
+  width: 198px;
+  height: 36px;
+  background-image: url(../assets/logo.svg);
+}
+
+.footerLeftText {
+  position: absolute;
+  width: 233px;
+  height: 20px;
+  top: 66px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+}
+
+.footerLeftSocial {
+  position: absolute;
+  width: 117.64px;
+  height: 18px;
+  top: 118px;
+  color: #555555;
+}
+
+.footerLeftSocial .fa-brands {
+  margin-right: 15px;
+}
+
+.footerLeftSocial .fa-tiktok {
+  margin-right: 0;
+}
+
+.footerRight {
+  position: absolute;
+  width: 46.09375%;
+  height: 139px;
+  left: 51.5625%;
+  top: 122px;
+}
+
+.footerRightSocial {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 83.898305084746%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.footerRightContact {
+  position: absolute;
+  width: 90px;
+  height: 19px;
+  left: 55.932203389831%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.footerRightNFT {
+  position: absolute;
+  width: 36px;
+  height: 19px;
+  left: 27.966101694915%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.footerRightAbout {
+  position: absolute;
+  width: 64px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.footerRightSocialText {
+  position: absolute;
+  width: 95px;
+  height: 56px;
+  left: 83.898305084746%;
+  top: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.footerRightContactText {
+  position: absolute;
+  width: 77px;
+  height: 56px;
+  left: 55.932203389831%;
+  top: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.footerRightNFTText {
+  position: absolute;
+  width: 87px;
+  height: 92px;
+  left: 27.966101694915%;
+  top: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.footerRightAboutText {
+  position: absolute;
+  width: 59px;
+  height: 92px;
+  top: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.footerBottom {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 381px;
+}
+
+.footerBottomLeft {
+  position: absolute;
+  width: 286px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
+}
+
+.footerBottomRight {
+  position: absolute;
+  width: 225px;
+  height: 20px;
+  right: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: right;
+  color: #999999;
+}

@@ -1,0 +1,68 @@
+.hero {
+  overflow: hidden;
+}
+
+.hero .container {
+  max-width: 1120px;
+  min-height: 519px;
+  position: relative;
+  margin-bottom: 182px;
+}
+
+.heroImage {
+  position: absolute;
+  left: 51.785714285714%;
+  top: -80px;
+}
+
+.heroTextMiniTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff3998;
+  margin-bottom: 1.5rem;
+}
+
+.heroTextTitle {
+  max-width: 620px;
+  margin-bottom: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #111111;
+}
+
+.heroTextMain {
+  max-width: 537px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 2.5625rem;
+}
+
+.heroCtaButton {
+  width: 188px;
+  height: 75px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  border-color: #ff8139;
+}
+
+.heroCtaButtonText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+}

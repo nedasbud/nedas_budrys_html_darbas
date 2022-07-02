@@ -1,0 +1,84 @@
+.footerUpsell .container {
+  min-height: 554px;
+  position: relative;
+}
+
+.footerUpsellLine {
+  width: 100%;
+  height: 2px;
+  background-color: #eeeeee;
+  margin-bottom: 120px;
+}
+
+.footerUpsellLineMobileOnly {
+  display: none;
+  width: 100%;
+  height: 2px;
+  background-color: #eeeeee;
+}
+
+.footerUpsellTextMiniTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff3998;
+  margin-bottom: 1.5rem;
+}
+
+.footerUpsellTextTitle {
+  max-width: 620px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: #111111;
+  margin-bottom: 1.5rem;
+}
+
+.footerUpsellTextSubtitle {
+  max-width: 537px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+.footerUpsellTextSubtitleMobile {
+  display: none;
+}
+
+.footerUpsellButton {
+  width: 188px;
+  height: 75px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  border-color: #ff8139;
+}
+
+.footerUpsellButtonText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+}
+
+.footerUpsellImage {
+  position: absolute;
+  width: 206px;
+  height: 467px;
+  left: 66.640625%;
+  top: 15.703971119134%;
+  background-image: url(../assets/upsell-footer-image.svg);
+}

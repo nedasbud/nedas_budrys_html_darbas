@@ -5,6 +5,242 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atsiskaitymas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/upsell.css" />
+    <link rel="stylesheet" href="./styles/press.css" />
+    <link rel="stylesheet" href="./styles/showcase.css" />
+    <link rel="stylesheet" href="./styles/footerup.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="headerNav">
+          <a class="headerNavLink1" href="#">Features</a>
+          <a class="headerNavLink2" href="#">About</a>
+          <a class="headerNavLink3" href="#">Launch</a>
+          <a class="headerNavLink4" href="#">Sign up</a>
+        </nav>
+        <div class="headerNavBurger">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="headerLogo">
+          <img src="./assets/logo.svg" alt="logotype" />
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="heroText">
+          <img src="./assets/graphic.svg" alt="Alien NFT" class="heroImage" />
+          <h4 class="heroTextMiniTitle">Launching soon</h4>
+          <h1 class="heroTextTitle">An NFT like no other</h1>
+          <p class="heroTextMain">
+            Don't miss out on the release of our new NFT. Sign up below to
+            receive updates when we go live.
+          </p>
+          <button class="heroCtaButton">
+            <span class="heroCtaButtonText">Sign up</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="upsell">
+      <div class="container">
+        <div class="upsellText">
+          <h3 class="upsellTextTitle">Free NFT for early birds</h3>
+          <p class="upsellTextSubtitle">
+            Sign up today and you'll get a free NFT when we launch
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="press">
+      <div class="container">
+        <div class="press1"></div>
+        <div class="press2"></div>
+        <div class="press3"></div>
+        <div class="press4"></div>
+        <div class="press5"></div>
+      </div>
+    </div>
+
+    <section class="showcase">
+      <div class="container">
+        <div class="showcaseText">
+          <h3 class="showcaseTextTitle">LE Super Rare Auction</h3>
+          <p class="showcaseTextSubtitle">
+            We have released four limited edition NFTs early which can be bid on
+            via
+            <a class="showcaseTextLink" href="https://opensea.io/">OpenSea</a>.
+          </p>
+        </div>
+        <div class="showcaseCards">
+          <div class="showcaseCard1">
+            <img
+              class="showcaseCard1Image"
+              src="./assets/nfts/ntf-1.svg"
+              alt="NFT 1"
+            />
+            <div class="showcaseCard1TextBlock">
+              <div class="showcaseCard1Left">
+                <h6 class="showcaseCard1LeftMiniTitle">Gloop Series</h6>
+                <h5 class="showcaseCard1LeftTitle">Purple Man</h5>
+                <p class="showcaseCard1LeftNumber">#12983</p>
+              </div>
+              <div class="showcaseCard1Rigth">
+                <h6 class="showcaseCard1RigthMiniTitle">TOP BID</h6>
+                <h5 class="showcaseCard1RigthTitle">2.99 ETH</h5>
+                <div class="showcaseCard1RigthETH"></div>
+                <p class="showcaseCard1RigthTimeleft">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <div class="showcaseCard2">
+            <img
+              class="showcaseCard2Image"
+              src="./assets/nfts/nft-2.svg"
+              alt="NFT 2"
+            />
+            <div class="showcaseCard2TextBlock">
+              <div class="showcaseCard2Left">
+                <h6 class="showcaseCard2LeftMiniTitle">Gloop Series</h6>
+                <h5 class="showcaseCard2LeftTitle">Beige</h5>
+                <p class="showcaseCard2LeftNumber">#12983</p>
+              </div>
+              <div class="showcaseCard2Rigth">
+                <h6 class="showcaseCard2RigthMiniTitle">TOP BID</h6>
+                <h5 class="showcaseCard2RigthTitle">2.99 ETH</h5>
+                <div class="showcaseCard2RigthETH"></div>
+                <p class="showcaseCard2RigthTimeleft">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <div class="showcaseCard3">
+            <img
+              class="showcaseCard3Image"
+              src="./assets/nfts/ntf-3.svg"
+              alt="NFT 3"
+            />
+            <div class="showcaseCard3TextBlock">
+              <div class="showcaseCard3Left">
+                <h6 class="showcaseCard3LeftMiniTitle">Gloop Series</h6>
+                <h5 class="showcaseCard3LeftTitle">Red Man</h5>
+                <p class="showcaseCard3LeftNumber">#12983</p>
+              </div>
+              <div class="showcaseCard3Rigth">
+                <h6 class="showcaseCard3RigthMiniTitle">TOP BID</h6>
+                <h5 class="showcaseCard3RigthTitle">2.99 ETH</h5>
+                <div class="showcaseCard3RigthETH"></div>
+                <p class="showcaseCard3RigthTimeleft">1 day left</p>
+              </div>
+            </div>
+          </div>
+          <div class="showcaseCard4">
+            <img
+              class="showcaseCard4Image"
+              src="./assets/nfts/ntf-4.svg"
+              alt="NFT 4"
+            />
+            <div class="showcaseCard4TextBlock">
+              <div class="showcaseCard4Left">
+                <h6 class="showcaseCard4LeftMiniTitle">Gloop Series</h6>
+                <h5 class="showcaseCard4LeftTitle">Green Man</h5>
+                <p class="showcaseCard4LeftNumber">#12983</p>
+              </div>
+              <div class="showcaseCard4Rigth">
+                <h6 class="showcaseCard4RigthMiniTitle">TOP BID</h6>
+                <h5 class="showcaseCard4RigthTitle">2.99 ETH</h5>
+                <div class="showcaseCard4RigthETH"></div>
+                <p class="showcaseCard4RigthTimeleft">1 day left</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footerUpsell">
+      <div class="container">
+        <div class="footerUpsellLine"></div>
+        <div class="footerUpsellLineMobileOnly"></div>
+        <div class="footerUpsellText">
+          <h4 class="footerUpsellTextMiniTitle">Launching soon</h4>
+          <h2 class="footerUpsellTextTitle">An NFT like no other</h2>
+          <p class="footerUpsellTextSubtitle">
+            Don't miss out on the release of our new NFT. Sign up below to
+            receive updates when we go live
+          </p>
+          <p class="footerUpsellTextSubtitleMobile">
+            Don't miss out on the release of our new NFT. Sign up below to
+            receive updates.
+          </p>
+          <button class="footerUpsellButton">
+            <span class="footerUpsellButtonText">Sign up</span>
+          </button>
+        </div>
+        <div class="footerUpsellImage"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footerLine"></div>
+        <div class="footerUp">
+          <div class="footerLeft">
+            <div class="footerLeftLogo"></div>
+            <div class="footerLeftText">Exclusive NFT Collection</div>
+            <div class="footerLeftSocial">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com/"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footerRight">
+            <p class="footerRightSocial">SOCIAL</p>
+            <p class="footerRightContact">CONTACT</p>
+            <p class="footerRightNFT">NFT</p>
+            <p class="footerRightAbout">About</p>
+            <a href="#" class="footerRightSocialText">Twitter Instagram</a>
+            <a href="#" class="footerRightContactText">Press Support</a>
+            <a href="#" class="footerRightNFTText">OpenSea Maker Learn</a>
+            <a href="#" class="footerRightAboutText">About Terms Legal</a>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <span class="footerBottomLeft">&copy; Copyright 2022 NFTlanding</span>
+          <span class="footerBottomRight">Launching August 2022</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
