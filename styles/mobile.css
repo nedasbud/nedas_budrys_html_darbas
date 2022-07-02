@@ -1,7 +1,113 @@
+/* OPTIONAL QUERRIES KAD GRAZIAU SUSIDELIOTU MAZINANT :) */
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding-bottom: 71px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footerUpsellImage {
+    left: 548.438px;
+  }
+  .footerRightAbout {
+    top: -40px;
+  }
+  .footerRightAboutText {
+    top: -20px;
+  }
+  .footerRightNFT {
+    left: 0;
+    top: 80px;
+  }
+  .footerRightNFTText {
+    left: 0;
+    top: 100px;
+  }
+  .footerRightContact {
+    top: -40px;
+    left: 120px;
+  }
+  .footerRightContactText {
+    top: -20px;
+    left: 120px;
+  }
+  .footerRightSocial {
+    top: 80px;
+    left: 120px;
+  }
+  .footerRightSocialText {
+    top: 100px;
+    left: 120px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .headerNav {
+    display: none;
+  }
+  .headerNavBurger {
+    margin-top: 9px;
+    font-size: 22px;
+    display: block;
+  }
+  .heroImage {
+    left: 349.031px;
+  }
+  .footerUpsell {
+    overflow: hidden;
+  }
+  .footerUpsellTextTitle,
+  .footerUpsellTextSubtitle {
+    max-width: 350px;
+  }
+  .footerUpsellImage {
+    left: 340px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .upsellText {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .heroImage {
+    left: 250px;
+  }
+  .footer .container {
+    height: 553px;
+  }
+  .footerBottomRight {
+    display: none;
+  }
+  .footerRight {
+    left: 0;
+    top: 320px;
+  }
+  .footerBottomLeft {
+    top: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heroImage {
+    left: 200px;
+    top: -40px;
+  }
+  .footerUpsellImage {
+    left: 330px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footerUpsellImage {
+    left: 280px;
+  }
+}
+
+/* ============================================= */
+
 @media screen and (max-width: 428px) {
   body {
     width: 428px;
     overflow-x: hidden;
+    border-radius: 0;
   }
   .container {
     width: 364px;
@@ -12,6 +118,12 @@
 
   .header {
     padding-top: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
   .header .container {
     width: 364px;
@@ -132,7 +244,7 @@
     width: 100%;
     height: 642px;
     margin-bottom: 92px;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .showcaseText {
@@ -151,6 +263,8 @@
   }
 
   .showcaseCards {
+    width: 1280px;
+    flex-wrap: nowrap;
     margin-top: 40px;
   }
 
@@ -218,6 +332,7 @@
   .footer {
     width: 428px;
     height: 632px;
+    padding-bottom: 0;
   }
 
   .footer .container {
@@ -263,10 +378,16 @@
   }
 
   .footerRightNFT {
+    top: 0;
     left: 165px;
   }
   .footerRightNFTText {
+    left: 165px;
     top: 37px;
+  }
+
+  .footerRightAbout {
+    top: 0;
   }
   .footerRightAboutText {
     top: 37px;
@@ -280,5 +401,9 @@
   }
   .footerBottomRight {
     display: none;
+  }
+
+  .footerBottomLeft {
+    top: 0;
   }
 }

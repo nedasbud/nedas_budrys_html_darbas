@@ -3,18 +3,10 @@
 }
 
 .showcase .container {
-  width: 1280px;
-  height: 558px;
-}
-
-.showcaseText {
-  width: 782px;
-  height: 102px;
+  min-height: 558px;
 }
 
 .showcaseTextTitle {
-  width: 620px;
-  height: 48px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -27,9 +19,6 @@
 }
 
 .showcaseTextSubtitle {
-  width: 782px;
-  height: 30px;
-  top: 72px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -47,6 +36,7 @@
 .showcaseCards {
   margin-top: 56px;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 

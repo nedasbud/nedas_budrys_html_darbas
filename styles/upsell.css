@@ -1,20 +1,17 @@
 .upsell .container {
-  width: 1280px;
-  height: 320px;
+  min-height: 320px;
   background-image: url(../assets/background.svg);
   display: flex;
+  border-radius: 10px;
+  background-repeat: no-repeat;
 }
 
 .upsellText {
   margin-top: 154px;
-  width: 620px;
-  height: 102px;
   margin-left: 64px;
 }
 
 .upsellTextTitle {
-  width: 620px;
-  height: 48px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -27,8 +24,6 @@
 }
 
 .upsellTextSubtitle {
-  width: 537px;
-  height: 30px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

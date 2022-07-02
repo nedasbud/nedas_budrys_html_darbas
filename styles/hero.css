@@ -1,27 +1,21 @@
+.hero {
+  overflow: hidden;
+}
+
 .hero .container {
-  width: 1120px;
-  height: 519px;
-  /* margin-top: 11.375rem; */
+  max-width: 1120px;
+  min-height: 519px;
   position: relative;
   margin-bottom: 182px;
 }
 
-.heroText {
-  width: 55.357%;
-  height: 483px;
-}
-
 .heroImage {
-  /* didesni ploti pasidariau kolkas kad graziau matytusi :) */
   position: absolute;
-  left: 580px;
-  top: -100px;
+  left: 51.785714285714%;
+  top: -80px;
 }
 
 .heroTextMiniTitle {
-  /* teko pridet 2px plocio nes persilauzia tekstas :/ (arba auksti -1) */
-  width: 171px;
-  height: 19px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -34,8 +28,7 @@
 }
 
 .heroTextTitle {
-  width: 620px;
-  height: 232px;
+  max-width: 620px;
   margin-bottom: 2rem;
   font-family: "Inter";
   font-style: normal;
@@ -46,8 +39,7 @@
 }
 
 .heroTextMain {
-  width: 537px;
-  height: 60px;
+  max-width: 537px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -66,8 +58,6 @@
 }
 
 .heroCtaButtonText {
-  width: 76px;
-  height: 30px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
